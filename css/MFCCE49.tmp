@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/*主题内容样式*/
+.inner{width:1210px;margin:0 auto;}
+.one .left .left_nav{float:left;background:#c81622;width:209px;height:465px;border-left:1px solid #af1e23;border-bottom:1px solid #af1e23;}
+.one .left .left_nav ul h3{height:31px;line-height:31px;padding:0 10px;width:168px; overflow:hidden;}
+.one .left .left_nav ul li{ position:relative;line-height:31px;height:31px;}
+.one .left .left_nav ul li:hover{background:#fff;}
+.one .left .left_nav ul li a{color:#fffff8;font-weight:normal;font-size:14px;}
+.one .left .left_nav ul li:hover a{color:#F7060A;}
+.one .left .left_nav ul li i{color:#f4fcf1;position:absolute;top:0;right:13px;}
+.one .one_center{float:left;margin:12px 10px 0;width:730px;height:454px;}
+.one .one_right{float:right;margin-top:12px;}
+.one .one_right .news{width:248px;height:372px;border:1px solid #efefef; overflow:hidden;}
+.one .one_right .news .news_top{height:163px;}
+.one .one_right .news .news_top .bulletin{height:32px;line-height:32px;border-bottom:1px dashed #efefef;padding:0 16px 0 15px;}
+.one .one_right .news .news_top h3{font-size:15px;color:#636363;line-height:32px;height:32px;float:left;}
+.one .one_right .news .news_top a{font-size:13px;color:#616161;font-family:"新宋体";float:right;line-height:32px;}
+.one .one_right .news .news_top span{padding-left:9px;}
+.one .one_right .news .news_top a:hover{color:#F7060A;}
+.one .one_right .news  .news_top ul{width:217px;padding:6px 0 6px 15px;border-bottom:1px solid #efefef;}
+.one .one_right .news .news_top ul li{height:24px;line-height:24px;}
+.one .one_right .news .news_top ul li a{font-size:13px;color:#656565;height:24px;line-height:24px;display:block;width:217px; overflow:hidden;white-space:normal;text-overflow:ellipsis;}
+.one .one_right .news .news_top ul li a:hover{color:#F7060A;}
+.one .one_right .news .news_top ul li span{font-size:13px;color:#5b5b5b;font-weight:bold;padding-right:6px;}
+.one .one_right .news .news_top ul li a:hover span{color:#F7060A;}
+.one .one_right .news .goupiao{width:260px;height:208px;overflow:hidden;}
+.one .one_right .news .goupiao li{width:62px;height:70px;border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;float:left;position:relative;text-align:center;}
+.one .one_right .news .goupiao li i{display:block;width:25px;height:25px;background:url(../images/icon1.png) no-repeat;position:absolute;top:13px;left:18px;}
+.one .one_right .news .goupiao li span{font-size:13px;color:#656565;padding-top:46px;display:block;}
+.one .one_right .news .goupiao li:hover span{color:#c6162a;}
+.one .one_right .news .goupiao li .two{background-position:0 -26px;}
+.one .one_right .news .goupiao li .three{background-position:0 -52px;}
+.one .one_right .news .goupiao li .four{background-position:0 -77px;}
+.one .one_right .news .goupiao li .five{background-position:0 -102px;}
+.one .one_right .news .goupiao li .six{background-position:0 -126px;}
+.one .one_right .news .goupiao li .seven{background-position:0 -151px;}
+.one .one_right .news .goupiao li .eight{background-position:0 -176px;}
+.one .one_right .news .goupiao li .nine{background-position:0 -252px;}
+.one .one_right .news .goupiao li .ten{background-position:0 -201px;}
+.one .one_right .news .goupiao li .eleven{background-position:0 -277px;}
+.one .one_right .news .goupiao li .twelve{background-position:0 -227px;}
+.one .one_right .pic{width:250px;height:70px;margin-top:5px;}
+
+.one .recommend{width:1210px;height:162px;margin:0 auto;margin-top:10px;}
+.one .recommend a{display:inline-block;width:210px;height:151px;background:url(../images/homebg.png) no-repeat -213px -136px;float:left;}
+.one .recommend ul{float:left;width:1000px;height:151px;}
+.one .recommend ul li{float:left;margin-right:1px;width:249px;}
+
+/*猜你喜欢*/
+.guessyoulike{width:1210px;height:313px;margin:0 auto;}
+.guessyoulike .title{height:41px;}
+.guessyoulike .title h3{color:#333333;font-size:20px;line-height:41px;float:left;}
+.guessyoulike .title h4{color:#9a9999;font-size:12px;font-style:oblique;float:left;line-height:41px;padding-left:8px;}
+.guessyoulike .title a{float:right;display:block;position:relative;}
+.guessyoulike .title a span{}
+.guessyoulike .title a .fa-repeat{font-size:30px;color:#676767;position:absolute;right:0;top:0;}
